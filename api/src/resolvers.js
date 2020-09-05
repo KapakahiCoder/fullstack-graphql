@@ -5,8 +5,11 @@
 
 module.exports = {
   Query: {
-    pets(_, __, ctx) {
-      return [{id: 1,name: "Moose"}, {id: 2, name: "garfield"}]
+    pets(_, {type}, ctx) {
+      return ctx.models.Pet.findMany(type)
+    },
+    pet(_, {input}, ctx) {
+      return ctx.models.Pet.findOne(input)
     }
    /*  demo(_, __, {models} ) {
       models.Pet.findMany({})
