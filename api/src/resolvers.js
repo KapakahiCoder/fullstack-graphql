@@ -5,22 +5,26 @@
 
 module.exports = {
   Query: {
-    demo(_, __, {models} ) {
-      models.Pet.findMany({})
+    pets(_, __, ctx) {
+      return [{id: 1,name: "Moose"}, {id: 2, name: "garfield"}]
     }
+   /*  demo(_, __, {models} ) {
+      models.Pet.findMany({})
+    } */
     
   },
-  Mutation: {
+ /*  Mutation: {
     
-  },
-  Pet: {
+  }, */
+
+/*   Pet: {
     img(pet) {
       return pet.type === 'DOG'
         ? 'https://placedog.net/300/300'
         : 'http://placekitten.com/300/300'
     }
-  },
-  User: {
+  }, */
+  /* User: {
     
-  }
+  } */
 }
