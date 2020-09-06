@@ -35,7 +35,9 @@ module.exports = {
         : 'http://placekitten.com/300/300'
     } */
   },
-  /* User: {
-    
-  } */
+  User: {
+    pets(user) {
+
+    }
+  }
 }
