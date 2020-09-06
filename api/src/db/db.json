@@ -8,25 +8,29 @@
       "id": "1",
       "createdAt": "345354",
       "name": "Cleo",
-      "type": "cat"
+      "type": "cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "2",
       "createdAt": "57568686",
       "name": "Basil",
-      "type": "dog"
+      "type": "dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "3",
       "createdAt": "235574",
       "name": "Callie",
-      "type": "cat"
+      "type": "cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "aLQI47CAyXcNTBrGF9dyy",
       "createdAt": 1599380013792,
       "name": "Daryl",
-      "type": "CAT"
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
