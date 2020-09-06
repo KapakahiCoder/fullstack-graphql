@@ -36,8 +36,8 @@ module.exports = {
     } */
   },
   User: {
-    pets(user) {
-
+    pets(user, _, ctx) {
+      return ctx.models.Pet.findMany()
     }
   }
 }
