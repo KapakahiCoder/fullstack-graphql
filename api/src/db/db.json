@@ -6,21 +6,27 @@
   "pet": [
     {
       "id": "1",
-    "createdAt": "345354",
-    "name": "Cleo",
-    "type": "cat"
+      "createdAt": "345354",
+      "name": "Cleo",
+      "type": "cat"
     },
     {
       "id": "2",
-    "createdAt": "57568686",
-    "name": "Basil",
-    "type": "dog"
+      "createdAt": "57568686",
+      "name": "Basil",
+      "type": "dog"
     },
     {
       "id": "3",
       "createdAt": "235574",
       "name": "Callie",
       "type": "cat"
+    },
+    {
+      "id": "aLQI47CAyXcNTBrGF9dyy",
+      "createdAt": 1599380013792,
+      "name": "Daryl",
+      "type": "CAT"
     }
   ]
 }

@@ -16,9 +16,12 @@ module.exports = {
     } */
     
   },
- /*  Mutation: {
-    
-  }, */
+  Mutation: {
+    newPet(_, {input}, ctx) {
+      const pet = ctx.models.Pet.create(input)
+      return pet
+    }
+  },
 
 /*   Pet: {
     img(pet) {
