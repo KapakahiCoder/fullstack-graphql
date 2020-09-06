@@ -9,6 +9,7 @@ module.exports = {
       return ctx.models.Pet.findMany(type)
     },
     pet(_, {input}, ctx) {
+      console.log("query => pet")
       return ctx.models.Pet.findOne(input)
     }
    /*  demo(_, __, {models} ) {
@@ -23,13 +24,17 @@ module.exports = {
     }
   },
 
-/*   Pet: {
-    img(pet) {
+  Pet: {
+    owner(pet, _, ctx) {
+      console.log("pet => owner")
+      return ctx.models.User.findOne()
+    }
+    /* img(pet) {
       return pet.type === 'DOG'
         ? 'https://placedog.net/300/300'
         : 'http://placekitten.com/300/300'
-    }
-  }, */
+    } */
+  },
   /* User: {
     
   } */
